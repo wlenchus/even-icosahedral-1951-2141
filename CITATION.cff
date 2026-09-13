@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use these tables or tests, please cite this kit (DOI added after the first Zenodo release) and, for provenance, the working archive, DOI 10.5281/zenodo.22727504."
+type: dataset
+title: "Even icosahedral Artin representations of conductors 1951 and 2141: Hecke eigenvalue tables, candidate Maass forms, and numerical tests of automorphy (replication kit)"
+authors:
+  - family-names: Lenchus
+    given-names: William C.
+version: 0.1.0
+date-released: 2026-09-13
+license:
+  - CC-BY-4.0
+  - MIT
+keywords:
+  - Artin conjecture
+  - even icosahedral Galois representations
+  - Maass forms
+  - Hecke eigenvalues
+  - Heilbronn characters
+references:
+  - type: data
+    title: "The TEP Archive (August 2025 – September 2026)"
+    authors:
+      - family-names: Lenchus
+        given-names: William C.
+    doi: 10.5281/zenodo.22727504

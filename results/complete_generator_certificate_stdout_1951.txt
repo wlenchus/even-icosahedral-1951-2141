@@ -1,0 +1,19 @@
+primitive root g=3, chi(g)=zeta5^1; table mismatches: 0 of 9591
+sweep done in 22s over 327 generators
+ m   #gens   worst residual (chi(d))   worst floor   worst residual (chibar(d))
+  1    174   9.706e-09              7.8e-52     2.343e-12
+  2     38   1.743e-09              2.1e-23     4.281e-11
+  3     30   2.812e-09              3.0e-14     8.801e-11
+  4     18   3.910e-09              6.2e-10     7.472e-11
+  5     17   1.016e-08              8.9e-07     1.657e-10
+  6      8   5.664e-09              1.8e-05     1.176e+00
+  7     13   2.454e-08              1.5e-03     1.586e-09
+  8      5   3.625e-08              1.2e-02     1.058e-08
+  9      7   2.060e-07              4.2e-02     1.493e-07
+ 10      2   9.348e-07              1.2e-01     1.902e+00
+ 11      5   2.597e-06              3.5e-01     1.176e+00
+ 13      7   5.836e-05              1.5e+01     1.416e-06
+ 21      1   8.586e-04              1.8e+02     1.902e+00
+ 23      1   9.015e-04              4.3e+02     9.015e-04
+elliptic generators: [((9831, -3811, 25363, -9832), '1.65e-06', 'floor 1.1e+00'), ((15531, -9511, 25363, -15532), '1.42e-06', 'floor 1.1e+00')]
+scrambled controls: ['scrambled=1.17e+00', 'scrambled=6.47e-01', 'scrambled=1.26e+00', 'scrambled=8.66e-01', 'scrambled=1.00e+00', 'scrambled=1.68e+00']

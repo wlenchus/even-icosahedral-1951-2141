@@ -1,0 +1,11 @@
+default(parisize,"512M");
+P = mspolygon(1951);
+print("#P = ", #P);
+for(i=1,#P, print("P[",i,"]: type ", type(P[i]), " length ", #P[i]));
+print("P[1][1..2] = ", P[1][1..2]);
+print("P[3][1..2] = ", P[3][1..2]);
+E = P[3];
+f = fileopen("generators_1951.txt", "w");
+for(i=1,#E, M=E[i]; if(type(M)=="t_MAT", filewrite(f, Str(M[1,1]," ",M[1,2]," ",M[2,1]," ",M[2,2]))));
+fileclose(f);
+print("done");

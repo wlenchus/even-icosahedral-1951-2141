@@ -1,0 +1,34 @@
+Scope of this license within this kit
+-------------------------------------
+The MIT License below applies to the source code: every file under scripts/ and generators/*.gp.
+All other content -- the README (deposit statement), the data tables, results and notes -- is
+licensed under the Creative Commons Attribution 4.0 International license in the file LICENSE.
+Attribution for either: William C. Lenchus, this kit (Zenodo DOI once minted) and the working
+archive, DOI 10.5281/zenodo.22727504.
+
+MIT License below applies to the source code in this repository: every file
+under 50_code/, and every script file (.py, .gp, .sh, .ipynb, .js) wherever it
+appears, including inside record bundles under 20_records/. All other content --
+documents, records, data tables, figures -- is licensed under the Creative Commons
+Attribution 4.0 International license in the file LICENSE at the repository root.
+Attribution for either: William C. Lenchus, The TEP Archive, https://github.com/wlenchus/TEP-archive
+(and the Zenodo DOI once minted).
+
+MIT License
+
+Copyright (c) 2025-2026 William C. Lenchus
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
+associated documentation files (the "Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the
+following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial
+portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO
+EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+USE OR OTHER DEALINGS IN THE SOFTWARE.

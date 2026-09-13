@@ -1,0 +1,57 @@
+SL(2,5): classes 9 sizes [30, 20, 12, 12, 20, 12, 12, 1, 1] rep orders [4, 6, 5, 10, 3, 5, 10, 1, 2]
+degrees [1, 3, 3, 4, 5, 6, 2, 4, 2]
+faithful (spin) irreps: degrees [np.int64(6), np.int64(2), np.int64(4), np.int64(2)]
+distinct subgroups (from pairs): 76
+subgroup classes: [(1, 1), (2, 1), (3, 10), (4, 15), (5, 6), (6, 10), (8, 5), (10, 6), (12, 10), (20, 6), (24, 5), (120, 1)]
+distinct monomial rows: 31  distinct tetrahedral rows: 2
+tetrahedral rows (mult over G irreps, degrees [1, 3, 3, 4, 5, 6, 2, 4, 2]):
+    (0, 0, 0, 0, 0, 1, 0, 1, 0) -> in monomial set? True
+    (0, 0, 0, 0, 0, 1, 1, 0, 1) -> in monomial set? False
+irrep labels: ['d1#0', 'd3#1', 'd3#2', 'd4#3', 'd5#4', 'd6s#5', 'd2s#6', 'd4s#7', 'd2s#8']
+
+[full known cone (monomial + tetrahedral)] pole of order 1 in L(rho): LP min N = 4.0000; MILP min N = 4
+   pole of order 2: LP min N = 8.0000; MILP min N = 8
+   pole of order 3: LP min N = 12.0000; MILP min N = 12
+
+[monomial rows only (no tetrahedral)] pole of order 1 in L(rho): LP min N = 2.0000; MILP min N = 2
+   pole of order 2: LP min N = 4.0000; MILP min N = 4
+   pole of order 3: LP min N = 6.0000; MILP min N = 6
+
+All integer coins with n_rho = -1, N <= 4, |n|<=4, all known marginals >= 0:
+   N = 4 {'d2s#6': -1, 'd4s#7': 1, 'd2s#8': 1}
+   N = 4 {'d6s#5': 1, 'd2s#6': -1}
+   N = 4 {'d6s#5': 2, 'd2s#6': -1, 'd4s#7': -1, 'd2s#8': -1}
+pole in L(deg 3): MILP min N = 4
+pole in L(deg 4): MILP min N = 3
+pole in L(deg 4spin): MILP min N = 2
+pole in L(deg 5): MILP min N = infeasible
+pole in L(deg 6spin): MILP min N = infeasible
+
+rho index 6 rho' index 8
+Check the 2-dim spin characters are Galois conjugate (values on order-5/10 classes):
+   d2s#6 [0.0, 1.0, -1.618, 1.618, -1.0, 0.618, -0.618, 2.0, -2.0]
+   d2s#8 [0.0, 1.0, 0.618, -0.618, -1.0, -1.618, 1.618, 2.0, -2.0]
+Ind_{C10} xi rows containing rho (the two-tile 2+4'+6) present? True
+
+Cascade Sym^k(2) decomposition into irreps of SL(2,5):
+  Sym^ 1 (dim  2): {'d2s#6': 1}  invariants: 0
+  Sym^ 2 (dim  3): {'d3#2': 1}  invariants: 0
+  Sym^ 3 (dim  4): {'d4s#7': 1}  invariants: 0
+  Sym^ 4 (dim  5): {'d5#4': 1}  invariants: 0
+  Sym^ 5 (dim  6): {'d6s#5': 1}  invariants: 0
+  Sym^ 6 (dim  7): {'d3#1': 1, 'd4#3': 1}  invariants: 0
+  Sym^ 7 (dim  8): {'d6s#5': 1, 'd2s#8': 1}  invariants: 0
+  Sym^ 8 (dim  9): {'d4#3': 1, 'd5#4': 1}  invariants: 0
+  Sym^ 9 (dim 10): {'d6s#5': 1, 'd4s#7': 1}  invariants: 0
+  Sym^10 (dim 11): {'d3#1': 1, 'd3#2': 1, 'd5#4': 1}  invariants: 0
+  Sym^11 (dim 12): {'d6s#5': 1, 'd2s#6': 1, 'd4s#7': 1}  invariants: 0
+  Sym^12 (dim 13): {'d1#0': 1, 'd3#2': 1, 'd4#3': 1, 'd5#4': 1}  invariants: 1
+
+Moments E|a|^{2k} over the finite group vs Catalan(k):
+  k=1: group 1.000000  Catalan 1
+  k=2: group 2.000000  Catalan 2
+  k=3: group 5.000000  Catalan 5
+  k=4: group 14.000000  Catalan 14
+  k=5: group 42.000000  Catalan 42
+  k=6: group 133.000000  Catalan 132
+  k=7: group 442.000000  Catalan 429
