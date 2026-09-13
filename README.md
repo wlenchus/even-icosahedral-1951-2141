@@ -1,5 +1,6 @@
 <!-- Replication kit — even icosahedral Artin representations of conductors 1951 and 2141.
-     Kit DOI: ______ (filled after the first Zenodo release). Working archive (provenance): DOI 10.5281/zenodo.22727504.
+     Kit DOI: 10.5281/zenodo.22731409 (all versions); version 0.1.0 = 10.5281/zenodo.22731410 (released 2026-09-13, statement offered, not yet countersigned).
+     Working archive (provenance): DOI 10.5281/zenodo.22727504.
      Layout: data/ (tables) · generators/ · scripts/ · results/ (expected outputs) · notes/ · MANIFEST_SHA256.txt · LICENSE (CC BY 4.0, documents and data) · LICENSE-MIT (code).
      The text below is the deposit statement; its countersign line is filled by the author alone. -->
 
