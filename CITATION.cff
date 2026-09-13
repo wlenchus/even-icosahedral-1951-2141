@@ -1,5 +1,13 @@
 cff-version: 1.2.0
-message: "If you use these tables or tests, please cite this kit (DOI added after the first Zenodo release) and, for provenance, the working archive, DOI 10.5281/zenodo.22727504."
+message: "If you use these tables or tests, please cite this kit (concept DOI below; version 0.1.0 is 10.5281/zenodo.22731410) and, for provenance, the working archive, DOI 10.5281/zenodo.22727504."
+doi: 10.5281/zenodo.22731409
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22731410
+    description: "Version 0.1.0, released 2026-09-13"
+  - type: doi
+    value: 10.5281/zenodo.22731409
+    description: "Concept DOI, all versions"
 type: dataset
 title: "Even icosahedral Artin representations of conductors 1951 and 2141: Hecke eigenvalue tables, candidate Maass forms, and numerical tests of automorphy (replication kit)"
 authors:
